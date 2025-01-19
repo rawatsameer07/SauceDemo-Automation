@@ -1,0 +1,35 @@
+### Setup Instructions for Java Cucumber Project
+
+1. Java Development Kit (JDK):  
+   - Install the latest version of JDK (Java Development Kit) on your machine.  
+   - You can download it from the Oracle website or choose an OpenJDK distribution.
+
+2. Integrated Development Environment (IDE):  
+   - Choose an IDE for Java development, such as IntelliJ IDEA, Eclipse, or NetBeans.  
+   - Install the IDE of your choice and set it up with necessary configurations.
+
+3. Project Initialization:  
+   - Import this Java project in your IDE.  
+   - Depending on your IDE, look for options to import a new Java Maven project.
+
+4. Build Automation Tool:  
+   - Consider using a build automation tool like Apache Maven or Gradle to manage your project dependencies and build process.  
+   - This step is optional but highly recommended. You can choose either Maven or Gradle based on your preference.
+
+5. Download and Install Git:  
+   - If you want to push changes to the repository, ensure Git is installed on your machine.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Running the Tests
+
+AppTestRunner.java:  
+- Created a test runner class in the 'src/test/java/featureFiles' package, which will execute your Cucumber tests.  
+- In Cucumber, the test runner class is typically annotated with '@RunWith(Cucumber.class)' and specifies the location of your feature files and step definitions.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Reports
+
+- Once tests are executed using the AppTestRunner.java file, you will be able to view the execution status in the console.  
+- To view the Cucumber report, navigate to 'SauceDemo-Automation\target\cucumber-reports' and click on the HTML report file.
